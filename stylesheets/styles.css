@@ -1,0 +1,441 @@
+/* Start Screen Styles */
+#startButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+#start{
+    width: 260px; 
+    height: 95px;
+}
+
+#startBG{
+    position: absolute;
+    inset: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: fit-content;
+    object-fit: cover;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#app{
+    position: relative;
+    height: 100vh;
+    aspect-ratio: 9 / 16;
+}
+
+/* photo formats */
+#photoFormatBG{
+    position: absolute;
+    inset: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: fit-content;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#polaroidFrame{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    width: 220px;
+    height: 290px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#photostripFrame{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 210px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#photostripDefault{
+    position: absolute;
+    top: 28%;
+    left: 25%;
+    width: 210px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 8;
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+#photostripdefaultTemp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 170px;
+    height: 430px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+#music{
+    position: absolute;
+    top: 28%;
+    left: 74%;
+    width: 210px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 8;
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+#musicTemp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 170px;
+    height: 430px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+#chiikawa{
+    position: absolute;
+    top: 75%;
+    left: 74%;
+    width: 210px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 8;
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+#chiikawaTemp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 170px;
+    height: 430px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+#backButton{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    image-resolution: 50px;
+    -webkit-appearance: none;
+    z-index: 5;
+}
+
+#backButtonImage{
+    width: 75px;
+    height: 75px;
+}
+
+/*Polaroid Styles*/
+#polaroidDefaultTemp{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    width: 90%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+#defaultTemp{
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+#naganoTemp{
+    position: absolute;
+    top: 16%;
+    left: 75%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+#jungleTemp{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+#gigiTemp{
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+#idleTemp{
+    position: absolute;
+    top: 74%;
+    left: 25%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+#blackpinkTemp{
+    position: absolute;
+    top: 74%;
+    left: 75%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+#cameraView{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleX(-1);
+    width: 77%;
+    height: auto;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    z-index: 0; 
+    pointer-events: none;
+}
+
+:root{
+    --camera-width: 58%;
+    --camera-top: 40%;
+}
+
+#timerButtonImage{
+    width: 75px;
+    height: 75px;
+}
+
+#timerButton{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    image-resolution: 50px;
+    -webkit-appearance: none;
+    z-index: 5;
+}
+
+#captureButtonImage{
+    width: 100px;
+    height: 100px;
+}
+
+#captureButton{
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    image-resolution: 50px;
+    -webkit-appearance: none;
+    z-index: 5;
+}
+
+#redoButtonImage{
+    width: 75px;
+    height: 75px;
+}
+
+#redoButton{
+    position: absolute;
+    bottom: 175px;
+    left: 85%;
+    transform: translateX(-50%);
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+    display: none;
+    z-index: 5;
+}
+
+#retake{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 155px;
+    left: 25px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    image-resolution: 50px;
+    -webkit-appearance: none;
+    z-index: 5;
+}
+
+#downloadButton{
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    image-resolution: 50px;
+    -webkit-appearance: none;
+    z-index: 5;
+}
+
+#downloadButtonImg{
+    width: 220px;
+    height: 98px;
+}
+
+#mainMenuButton{
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    image-resolution: 50px;
+    -webkit-appearance: none;
+    z-index: 5;
+}
+
+#mainMenuImg{
+    width: 220px;
+    height: 98px;
+}
+
+nav{
+    position: absolute;
+    bottom: 110px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 85px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    pointer-events: none;
+    z-index: 15;
+}
+
+nav.active{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.timer-option{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    -webkit-appearance: none;
+    transition: transform 0.2s ease;
+}
+
+.timer-option img{
+    width: 75px;
+    height: 75px;
+}
+
+.timer-option:hover{
+    transform: scale(1.1);
+}
+
+.timer-option.selected img{
+    filter: brightness(1.3);
+}
+
+#countdownOverlay {
+    position: absolute;
+    left: 50%;
+    bottom: 125px;
+    transform: translateX(-50%);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 64px;
+    font-weight: bold;
+    color: #b9fffc;
+    text-shadow: 0 0 10px #000, 0 0 20px #000;
+    z-index: 100;
+    display: none;
+    pointer-events: none;
+}
+

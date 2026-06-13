@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <title>Photostrip</title>
+    </head>
+
+    <body>
+        <div id="app">
+            <img src="assets/backgrounds/photoFormatbg.png" id="photoFormatBG">
+            <button id="backButton">
+                <a href="photostripFrameSel.html">
+                    <img src="assets/buttons/backbutton.png" id="backButtonImage">
+                </a>
+            </button>
+            <button id="captureButton">
+                <img src="assets/buttons/captureButton.png" id="captureButtonImage">
+            </button>
+            <button id="timerButton">
+                <img src="assets/buttons/timerIcon.png" id="timerButtonImage">
+            </button>   
+
+            <button id="redoButton">
+                <img src="assets/buttons/redoIcon.png" id="redoButtonImage">
+            </button>
+
+            <video id="cameraView" autoplay playsinline muted></video>
+            <img src="" id="polaroidDefaultTemp">
+            
+            <nav id="timerMenu">
+                <button class="timer-option" data-timer="10">
+                    <img src="assets/buttons/tenSec.png" alt="10 Second Timer">
+                </button>
+                <button class="timer-option" data-timer="5">
+                    <img src="assets/buttons/fiveSec.png" alt="5 Second Timer">
+                </button>
+                <button class="timer-option" data-timer="3">
+                    <img src="assets/buttons/threeSec.png" alt="3 Second Timer">
+                </button>               
+                <button class="timer-option" data-timer="0">
+                    <img src="assets/buttons/noTimer.png" alt="No Timer">
+                </button>
+            </nav>
+        </div>
+
+        <script src="javascripts/frameData.js"></script>
+        <script src="javascripts/photostrip.js"></script>
+
+
+    </body>
+
+</html>

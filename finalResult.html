@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Result</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/styles.css">
+    </head>
+
+    <body>
+        <div id="app">
+            <img src="assets/backgrounds/photoFormatbg.png" id="photoFormatBG">
+            <img id="resultFrame">
+
+            <button id="retakeButton" onclick="window.location.href='polaroid.html'">
+                <img src="assets/buttons/backbutton.png" id="retake">
+            </button>
+
+            <button id="downloadButton">
+                <img src="assets/buttons/downloadButton.png" id="downloadButtonImg">
+            </button>
+
+            <button id="mainMenuButton">
+                <a href="index.html">
+                    <img src="assets/buttons/mainMenuButton.png" id="mainMenuImg">
+                </a>
+            </button>
+        </div>
+        <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                const dataURL = sessionStorage.getItem('capturedPhoto');
+                const resultFrame = document.getElementById('resultFrame');
+                if (dataURL && resultFrame) {
+                    resultFrame.src = dataURL;
+                    resultFrame.style.cssText = `
+                        position: absolute;
+                        top: 38%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 90%;
+                        height: auto;
+                        z-index: 2;
+                    `;
+                }
+                document.getElementById('downloadButton').addEventListener('click', function() {
+                    const a = document.createElement('a');
+                    a.href = sessionStorage.getItem('capturedPhoto');
+                    a.download = 'photobooth.png';
+                    a.click();
+                });
+            });
+        </script>
+    </body>
+        
+</html>
