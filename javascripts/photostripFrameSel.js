@@ -1,4 +1,4 @@
-DocumentTimeline.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const frameButtons = [
         {id: 'photostripDefault', template: 'photostripDefaultTemp.png'},
         {id: 'music', template: 'photostripMusicTemp.png'},
@@ -19,7 +19,7 @@ DocumentTimeline.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    const params = URLSearchParams(window.location.search);
+    const params = new URLSearchParams(window.location.search);
     const selectedTemplate = params.get('template');
     if (selectedTemplate) {
         const container = document.getElementById('selectedTemplateContainer');
