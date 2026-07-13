@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const frameButtons = [
         {id: 'photostripDefault', template: 'photostripDefaultTemp.png'},
         {id: 'music', template: 'photostripMusicTemp.png'},
-        {id: 'chiikawa', template: 'photostripChiikawaTemp.png'}
+        {id: 'chiikawa', template: 'photostripChiikawaFrame.png'}
     ];
 
     frameButtons.forEach(btn => {
