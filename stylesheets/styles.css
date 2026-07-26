@@ -63,6 +63,7 @@ body{
     height: 290px;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    pointer-events: none;
 }
 
 #photostripFrame{
@@ -73,6 +74,7 @@ body{
     height: 450px;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    pointer-events: none;
 }
 
 #photostripDefaultSelTemp{
@@ -83,6 +85,7 @@ body{
     height: 430px;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    pointer-events: none;
 }
 
 #photostripDefault{
@@ -98,6 +101,7 @@ body{
     outline: none;
     background: transparent;
     -webkit-appearance: none;
+    pointer-events: none;
 }
 
 #photostripDefaultTemp{
@@ -108,6 +112,7 @@ body{
     height: auto;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    pointer-events: none;
 }
 
 #music{
@@ -123,6 +128,7 @@ body{
     outline: none;
     background: transparent;
     -webkit-appearance: none;
+    pointer-events: none;
 }
 
 #musicTemp{
@@ -133,6 +139,7 @@ body{
     height: 430px;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    pointer-events: none;
 
 }
 
@@ -149,6 +156,7 @@ body{
     outline: none;
     background: transparent;
     -webkit-appearance: none;
+    pointer-events: none;
 }
 
 #chiikawaTemp{
@@ -159,7 +167,7 @@ body{
     height: 430px;
     transform: translate(-50%, -50%);
     cursor: pointer;
-
+    pointer-events: none;
 }
 
 #backButton{
@@ -173,6 +181,7 @@ body{
     image-resolution: 50px;
     -webkit-appearance: none;
     z-index: 5;
+    pointer-events: none;
 }
 
 #backButtonImage{
@@ -202,6 +211,7 @@ body{
     transform: translate(-50%, -50%);
     z-index: 1;
     cursor: pointer;
+    pointer-events: none;
 }
 
 #naganoTemp{
@@ -214,6 +224,7 @@ body{
     transform: translate(-50%, -50%);
     z-index: 1;
     cursor: pointer;
+    pointer-events: none;
 }
 
 #jungleTemp{
@@ -226,6 +237,7 @@ body{
     transform: translate(-50%, -50%);
     z-index: 1;
     cursor: pointer;
+    pointer-events: none;
 }
 
 #gigiTemp{
@@ -238,6 +250,7 @@ body{
     transform: translate(-50%, -50%);
     z-index: 1;
     cursor: pointer;
+    pointer-events: none;
 }
 
 #idleTemp{
@@ -250,6 +263,7 @@ body{
     transform: translate(-50%, -50%);
     z-index: 1;
     cursor: pointer;
+    pointer-events: none;
 }
 
 #blackpinkTemp{
@@ -262,6 +276,7 @@ body{
     transform: translate(-50%, -50%);
     z-index: 1;
     cursor: pointer;
+    pointer-events: none;
 }
 
 #cameraView{
