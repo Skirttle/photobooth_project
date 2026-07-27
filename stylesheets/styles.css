@@ -79,8 +79,8 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 170px;
-    height: 430px;
+    width: 75%;
+    height: auto;
     transform: translate(-50%, -50%);
     cursor: pointer;
     pointer-events: none;
@@ -131,12 +131,11 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 170px;
-    height: 430px;
+    width: 75%;
+    height: auto;
     transform: translate(-50%, -50%);
     cursor: pointer;
     pointer-events: none;
-
 }
 
 #chiikawa{
@@ -158,8 +157,8 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 170px;
-    height: 430px;
+    width: 75%;
+    height: auto;
     transform: translate(-50%, -50%);
     cursor: pointer;
     pointer-events: none;
@@ -194,7 +193,7 @@ body{
     z-index: 1;
 }
 
-#defaultTemp{
+#default{
     position: absolute;
     top: 16%;
     left: 25%;
@@ -202,47 +201,102 @@ body{
     height: 250px;
     aspect-ratio: 4/5;
     transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#defaultTemp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 250px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+#nagano{
+    position: absolute;
+    top: 16%;
+    left: 75%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
     z-index: 1;
     cursor: pointer;
 }
 
 #naganoTemp{
     position: absolute;
-    top: 16%;
-    left: 75%;
+    top: 50%;
+    left: 50%;
     width: 200px;
     height: 250px;
     aspect-ratio: 4/5;
     transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+#jungle{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
     z-index: 1;
     cursor: pointer;
 }
 
 #jungleTemp{
     position: absolute;
-    top: 45%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
     width: 200px;
     height: 250px;
     aspect-ratio: 4/5;
     transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+#gigi{
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
     z-index: 1;
     cursor: pointer;
 }
 
 #gigiTemp{
     position: absolute;
-    top: 45%;
-    left: 75%;
+    top: 50%;
+    left: 50%;
     width: 200px;
     height: 250px;
     aspect-ratio: 4/5;
     transform: translate(-50%, -50%);
     z-index: 1;
-    cursor: pointer;
+    pointer-events: none;
 }
 
-#idleTemp{
+#idle{
     position: absolute;
     top: 74%;
     left: 25%;
@@ -250,11 +304,25 @@ body{
     height: 250px;
     aspect-ratio: 4/5;
     transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
     z-index: 1;
     cursor: pointer;
 }
 
-#blackpinkTemp{
+#idleTemp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+#blackpink{
     position: absolute;
     top: 74%;
     left: 75%;
@@ -262,8 +330,22 @@ body{
     height: 250px;
     aspect-ratio: 4/5;
     transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
     z-index: 1;
     cursor: pointer;
+}
+
+#blackpinkTemp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 250px;
+    aspect-ratio: 4/5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
 }
 
 #cameraView{
