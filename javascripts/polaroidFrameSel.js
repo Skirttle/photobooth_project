@@ -1,12 +1,12 @@
 // handles polaroid frame selection and reloads the page with selected template
 document.addEventListener('DOMContentLoaded', function() {
     const frameButtons = [
-        { id: 'default', template: 'polaroidDefaultTemp.png' },
-        { id: 'nagano', template: 'naganoFrame.png' },
-        { id: 'jungle', template: 'jungleFrame.png' },
-        { id: 'gigi', template: 'gigiFrame.png' },
-        { id: 'idle', template: 'miniIdleFrame.png' },
-        { id: 'blackpink', template: 'blackpinkFrame.png' }
+        { id: 'default', template: 'polaroidDefaultTemp.webp' },
+        { id: 'nagano', template: 'naganoFrame.webp' },
+        { id: 'jungle', template: 'jungleFrame.webp' },
+        { id: 'gigi', template: 'gigiFrame.webp' },
+        { id: 'idle', template: 'miniIdleFrame.webp' },
+        { id: 'blackpink', template: 'blackpinkFrame.webp' }
     ];
 
 
