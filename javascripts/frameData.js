@@ -4,20 +4,20 @@ const FRAME_DATA_CONFIG = {
     polaroid: {
         folder: 'polaroidFrames',
         frames: [
-            'polaroidDefaultTemp.png',
-            'naganoFrame.png',
-            'jungleFrame.png',
-            'gigiFrame.png',
-            'miniIdleFrame.png',
-            'blackpinkFrame.png'
+            'polaroidDefaultTemp.webp',
+            'naganoFrame.webp',
+            'jungleFrame.webp',
+            'gigiFrame.webp',
+            'miniIdleFrame.webp',
+            'blackpinkFrame.webp'
         ]
     },
     photostrip: {
         folder: 'photostripFrames',
         frames: [
-            'photostripDefaultTemp.png',
-            'photostripMusicTemp.png',
-            'photostripChiikawaTemp.png'
+            'photostripDefaultTemp.webp',
+            'photostripMusicTemp.webp',
+            'photostripChiikawaFrame.webp'
         ]
     }
 };
