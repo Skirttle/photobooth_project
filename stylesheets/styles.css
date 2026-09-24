@@ -88,10 +88,10 @@ body{
 
 #photostripDefault{
     position: absolute;
-    top: 28%;
+    top: 23%;
     left: 25%;
-    width: 210px;
-    height: 450px;
+    width: 189px;
+    height: 405px;
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 8;
@@ -103,9 +103,9 @@ body{
 
 #photostripDefaultTemp{
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
-    width: 42%;
+    width: 48%;
     height: auto;
     transform: translate(-50%, -50%);
     cursor: pointer;
@@ -114,10 +114,10 @@ body{
 
 #music{
     position: absolute;
-    top: 28%;
+    top: 23%;
     left: 74%;
-    width: 210px;
-    height: 450px;
+    width: 189px;
+    height: 405px;
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 8;
@@ -138,12 +138,38 @@ body{
     pointer-events: none;
 }
 
+#jiminjeong{
+    position: absolute;
+    top: 68.5%;
+    left: 25%;
+    width: 189px;
+    height: 405px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 8;
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+#jiminjeongTemp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    pointer-events: none;
+}
+
 #chiikawa{
     position: absolute;
-    top: 75%;
+    top: 68.5%;
     left: 74%;
-    width: 210px;
-    height: 450px;
+    width: 189px;
+    height: 405px;
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 8;

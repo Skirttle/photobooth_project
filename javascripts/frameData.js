@@ -17,7 +17,8 @@ const FRAME_DATA_CONFIG = {
         frames: [
             'photostripDefaultTemp.webp',
             'photostripMusicTemp.webp',
-            'photostripChiikawaFrame.webp'
+            'photostripChiikawaFrame.webp',
+            'photostripJmjTemp.webp'
         ]
     }
 };

@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const frameButtons = [
         {id: 'photostripDefault', template: 'photostripDefaultTemp.webp'},
         {id: 'music', template: 'photostripMusicTemp.webp'},
-        {id: 'chiikawa', template: 'photostripChiikawaFrame.webp'}
+        {id: 'chiikawa', template: 'photostripChiikawaFrame.webp'},
+        {id: 'jiminjeong', template: 'photostripJmjTemp.webp'}
     ];
 
     frameButtons.forEach(btn => {
