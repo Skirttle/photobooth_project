@@ -14,9 +14,17 @@
                     <img src="assets/buttons/backbutton.png" id="backButtonImage">
                 </a>
             </button>
+
+            <div id="captureBox">
+                <video id="cameraViewPhotostrip" autoplay playsinline muted></video>
+                <img id="capturedPreview" style="display: none;">
+                <div id="frameCrop"></div>
+            </div>
+            
             <button id="captureButton">
                 <img src="assets/buttons/captureButton.png" id="captureButtonImage">
             </button>
+
             <button id="timerButton">
                 <img src="assets/buttons/timerIcon.png" id="timerButtonImage">
             </button>   
@@ -25,8 +33,9 @@
                 <img src="assets/buttons/redoIcon.png" id="redoButtonImage">
             </button>
 
-            <video id="cameraView" autoplay playsinline muted></video>
-            <img src="" id="photostripDefaultTemp">
+            <button id="nextButton">
+                <img src="assets/buttons/nextButton.png" id="nextButtonImage">
+            </button>
             
             <nav id="timerMenu">
                 <button class="timer-option" data-timer="10">
