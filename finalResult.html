@@ -11,10 +11,6 @@
             <img src="assets/backgrounds/photoFormatbg.png" id="photoFormatBG">
             <img id="resultFrame">
 
-            <button id="retakeButton" onclick="window.location.href='polaroid.html'">
-                <img src="assets/buttons/backbutton.png" id="retake">
-            </button>
-
             <button id="downloadButton">
                 <img src="assets/buttons/downloadButton.png" id="downloadButtonImg">
             </button>
@@ -33,11 +29,14 @@
                     resultFrame.src = dataURL;
                     resultFrame.style.cssText = `
                         position: absolute;
-                        top: 38%;
+                        top: 43%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        width: 90%;
+                        max-width: 90%;
+                        max-height: 75%;
+                        width: auto;
                         height: auto;
+                        object-fit: contain;
                         z-index: 2;
                     `;
                 }
