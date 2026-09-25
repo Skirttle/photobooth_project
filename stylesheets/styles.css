@@ -88,10 +88,10 @@ body{
 
 #photostripDefault{
     position: absolute;
-    top: 28%;
+    top: 23%;
     left: 25%;
-    width: 210px;
-    height: 450px;
+    width: 189px;
+    height: 405px;
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 8;
@@ -103,9 +103,9 @@ body{
 
 #photostripDefaultTemp{
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
-    width: 42%;
+    width: 48%;
     height: auto;
     transform: translate(-50%, -50%);
     cursor: pointer;
@@ -114,10 +114,10 @@ body{
 
 #music{
     position: absolute;
-    top: 28%;
+    top: 23%;
     left: 74%;
-    width: 210px;
-    height: 450px;
+    width: 189px;
+    height: 405px;
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 8;
@@ -138,12 +138,38 @@ body{
     pointer-events: none;
 }
 
+#jiminjeong{
+    position: absolute;
+    top: 68.5%;
+    left: 25%;
+    width: 189px;
+    height: 405px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 8;
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+#jiminjeongTemp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    pointer-events: none;
+}
+
 #chiikawa{
     position: absolute;
-    top: 75%;
+    top: 68.5%;
     left: 74%;
-    width: 210px;
-    height: 450px;
+    width: 189px;
+    height: 405px;
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 8;
@@ -362,6 +388,63 @@ body{
     pointer-events: none;
 }
 
+#cameraViewPhotostrip, #capturedPreview{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+    pointer-events: none;
+}
+
+#captureBox{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 77%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 1px;
+    z-index: 1;
+}
+
+#captureBox video, #captureBox img, #capturedPreview{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cameraViewPhotostrip{
+    transform: scaleX(-1);
+}
+
+#frameCrop{
+    position: absolute;
+    inset: 0;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 2;
+}
+
+#confirmButton{
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+    z-index: 5;
+}
+
 :root{
     --camera-width: 58%;
     --camera-top: 40%;
@@ -410,6 +493,25 @@ body{
 }
 
 #redoButton{
+    position: absolute;
+    bottom: 175px;
+    left: 15%;
+    transform: translateX(-50%);
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+    display: none;
+    z-index: 5;
+}
+
+#nextButtonImage{
+    width: 75px;
+    height: 75px;
+}
+
+#nextButton{
     position: absolute;
     bottom: 175px;
     left: 85%;
@@ -532,4 +634,3 @@ nav.active{
     display: none;
     pointer-events: none;
 }
-
